@@ -120,3 +120,40 @@ In software development, requirements are categorized into Functional and Non-fu
 ![Use Case Diagram](/alx-booking-uc.png)
 
 ---
+
+✅ Acceptance Criteria
+What is Acceptance Criteria?
+
+Acceptance Criteria are predefined conditions that a software product or feature must meet to be accepted by stakeholders. These criteria guide development, testing, and validation to ensure that requirements are fulfilled and user expectations are met.
+🎯 Importance of Acceptance Criteria
+
+    Clarity: Clearly defines when a feature is considered complete and working as intended.
+
+    Alignment: Aligns stakeholders, developers, and testers on expectations and success metrics.
+
+    Testing Basis: Provides a reference for writing test cases and performing quality assurance.
+
+    Reduces Misunderstandings: Prevents ambiguity in requirements by setting specific, measurable goals.
+
+💡 Example: Acceptance Criteria for Checkout Feature in Hotel Booking System
+
+Feature: Checkout (Completing a hotel booking)
+
+Acceptance Criteria:
+
+    ✅ Users must be able to review their selected hotel details (name, price, dates, etc.).
+
+    ✅ Users must select a payment method and input payment details securely.
+
+    ✅ The system must validate booking availability before confirming.
+
+    ✅ Payment must be processed through a secure third-party API (e.g., Stripe, PayPal).
+
+    ✅ Upon successful payment, the user must receive a booking confirmation email within 2 minutes.
+
+    ✅ The booking details must be saved and accessible in the user’s booking history.
+
+    ✅ If payment fails, an appropriate error message should be shown and the user should be able to retry.
+
+---
+
