@@ -117,6 +117,6 @@ In software development, requirements are categorized into Functional and Non-fu
 
 ---
 
-![Use Case Diagram](/image/image.png)
+![Use Case Diagram](/alx-booking-uc.png)
 
 ---
