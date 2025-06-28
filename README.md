@@ -114,3 +114,9 @@ In software development, requirements are categorized into Functional and Non-fu
 | **Payment Integration**<br>Booking service connects to third-party APIs to handle payments securely. | **Availability**<br>The system should handle continuous operation with minimal downtime and robust backup systems. |
 | **Booking History View**<br>Users and hotel managers can view current and previous bookings. | **Maintainability**<br>Microservice architecture allows isolated updates and deployments with minimal impact. |
 | **Notifications**<br>Send alerts to hotel managers and users when bookings are made or updated. | **Data Consistency**<br>Use messaging queues (e.g., Kafka) and a master-slave DB setup to ensure consistent data across services. |
+
+---
+
+![Use Case Diagram](/image/image.png)
+
+---
