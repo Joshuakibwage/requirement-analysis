@@ -37,12 +37,61 @@ Requirement Analysis bridges the gap between stakeholders and the development te
 🎯 Why is Requirement Analysis Important?
 
 Requirement Analysis plays a vital role in ensuring the success of a software project. It lays the groundwork for the entire development process by providing clarity and direction. Here are key reasons why it's essential:
+
 1. Clear Communication Between Stakeholders
+    It ensures that all parties involved—clients, users, developers, and project managers—have a shared understanding of what the system should achieve. This minimizes miscommunication and helps align expectations.
 
-It ensures that all parties involved—clients, users, developers, and project managers—have a shared understanding of what the system should achieve. This minimizes miscommunication and helps align expectations.
 2. Accurate Project Planning
+    With well-defined requirements, teams can estimate time, budget, and resources more effectively. This leads to realistic planning, better risk management, and timely delivery.
 
-With well-defined requirements, teams can estimate time, budget, and resources more effectively. This leads to realistic planning, better risk management, and timely delivery.
 3. Improved Product Quality
+    By thoroughly analyzing and validating requirements upfront, teams can reduce the chances of rework, bugs, and user dissatisfaction. The result is a system that fulfills its intended purpose and delivers value to users.
 
-By thoroughly analyzing and validating requirements upfront, teams can reduce the chances of rework, bugs, and user dissatisfaction. The result is a system that fulfills its intended purpose and delivers value to users.
+
+---
+
+🧩 Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities to ensure the software product meets stakeholder needs and expectations. Below are the five key activities:
+
+📥 Requirement Gathering
+
+    Conduct interviews with stakeholders to understand their needs.
+
+    Distribute surveys or questionnaires to gather input from a larger user base.
+
+    Observe end-users in their natural environment to identify pain points.
+
+    Analyze existing systems and documentation for baseline functionality.
+
+✍️ Requirement Elicitation
+
+    Host brainstorming sessions to generate ideas and define needs.
+
+    Facilitate focus group discussions for in-depth insights.
+
+    Create low-fidelity prototypes to help stakeholders visualize and refine requirements.
+
+📄 Requirement Documentation
+
+    Prepare a Requirement Specification Document outlining all functional and non-functional requirements.
+
+    Write User Stories to describe features from the user’s perspective.
+
+    Develop Use Cases to illustrate system-user interactions.
+
+📊 Requirement Analysis and Modeling
+
+    Prioritize requirements based on impact and feasibility.
+
+    Conduct feasibility studies (technical, financial, and timeline constraints).
+
+    Use modeling techniques (e.g., data flow diagrams, ERDs) to represent the system structure.
+
+✅ Requirement Validation
+
+    Review requirements with stakeholders to ensure accuracy and completeness.
+
+    Define Acceptance Criteria for each requirement.
+
+    Maintain a Requirement Traceability Matrix to track implementation and testing coverage.
