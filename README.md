@@ -39,12 +39,15 @@ Requirement Analysis bridges the gap between stakeholders and the development te
 Requirement Analysis plays a vital role in ensuring the success of a software project. It lays the groundwork for the entire development process by providing clarity and direction. Here are key reasons why it's essential:
 
 1. Clear Communication Between Stakeholders
+
     It ensures that all parties involved—clients, users, developers, and project managers—have a shared understanding of what the system should achieve. This minimizes miscommunication and helps align expectations.
 
 2. Accurate Project Planning
+
     With well-defined requirements, teams can estimate time, budget, and resources more effectively. This leads to realistic planning, better risk management, and timely delivery.
 
 3. Improved Product Quality
+
     By thoroughly analyzing and validating requirements upfront, teams can reduce the chances of rework, bugs, and user dissatisfaction. The result is a system that fulfills its intended purpose and delivers value to users.
 
 
@@ -95,3 +98,19 @@ Requirement Analysis involves several structured activities to ensure the softwa
     Define Acceptance Criteria for each requirement.
 
     Maintain a Requirement Traceability Matrix to track implementation and testing coverage.
+
+---
+
+🧱 Types of Requirements
+
+In software development, requirements are categorized into Functional and Non-functional. The table below provides a clear distinction between the two, using examples from a hotel booking system like Airbnb or OYO:
+
+| **Functional Requirements** ⚙️ | **Non-functional Requirements** 🛡️ |
+|------------------------------|------------------------------------|
+| **User Registration & Authentication**<br>Users should be able to create accounts, log in securely, and manage their profiles. | **Security**<br>All data must be encrypted; implement secure login with protection against common vulnerabilities. |
+| **Hotel Search**<br>Customers can search for hotels using filters such as location, price, dates, and availability. | **Performance**<br>Search results should load within 2 seconds, even under high user traffic. |
+| **Hotel Listing Management**<br>Hotel managers can add, edit, or remove hotel details and upload images. | **Scalability**<br>The system should scale horizontally to accommodate traffic spikes during holidays or promotions. |
+| **Booking System**<br>Users can book rooms, confirm availability, and receive booking confirmation. | **Reliability**<br>Ensure 99.9% uptime; use Redis and Cassandra for efficient caching and long-term data access. |
+| **Payment Integration**<br>Booking service connects to third-party APIs to handle payments securely. | **Availability**<br>The system should handle continuous operation with minimal downtime and robust backup systems. |
+| **Booking History View**<br>Users and hotel managers can view current and previous bookings. | **Maintainability**<br>Microservice architecture allows isolated updates and deployments with minimal impact. |
+| **Notifications**<br>Send alerts to hotel managers and users when bookings are made or updated. | **Data Consistency**<br>Use messaging queues (e.g., Kafka) and a master-slave DB setup to ensure consistent data across services. |
